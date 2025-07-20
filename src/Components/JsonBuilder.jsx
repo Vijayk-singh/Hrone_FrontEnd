@@ -26,7 +26,7 @@ function JsonBuilder({ fields, setFields }) {
   };
 
   return (
-    <div  style={{marginTop:"9px"}}>
+    <div  style={{marginTop:"9px" ,borderLeft: '5px solid #ccc'}}>
       {fields.map((field=[], index) => (
         <InputContainer 
           key={index} 

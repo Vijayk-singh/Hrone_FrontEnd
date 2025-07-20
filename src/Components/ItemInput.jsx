@@ -8,7 +8,7 @@ const defaultField = () => ({
 
 const ItemInput = ({  field, index, updateField, deleteField }) => {
   return (
-    <div style={{padding:"5px "}}>
+    <div style={{padding:"2px "}}>
       <Row gutter={16} align="middle">
         <Col>
           <Input
