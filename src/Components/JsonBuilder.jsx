@@ -1,5 +1,5 @@
 
-import FieldContainer from './FieldContainer';
+import InputContainer from './InputContainer';
 import {Button} from 'antd'
 
 const defaultField = () => ({
@@ -28,7 +28,7 @@ function JsonBuilder({ fields, setFields }) {
   return (
     <div  >
       {fields.map((field=[], index) => (
-        <FieldContainer 
+        <InputContainer 
           key={index} 
           field={field} 
           index={index} 
